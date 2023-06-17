@@ -2,13 +2,9 @@
 #include <stdio.h>
 #include <time.h>
 /**
- *more headers goes there
+ *main - Serves as entry point of the program
  *
- *betty style doc for function main goes there
- *
- *main - serves as entry point of the program
- *
- * return: always 0 (success)
+ *return: Always 0(success)
  */
 int main(void)
 {
