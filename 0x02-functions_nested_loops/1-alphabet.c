@@ -1,20 +1,27 @@
 #include <stdio.h>
-#include <main.h>
 /**
- * main - Function that prints the alphabet
+ *print_alphabet - Prototype function
+ */
+void print_alphabet(void);
+/**
+ * main - Entry point of the program
  *
  * Return: Always 0 (success)
  */
 int main(void)
 {
+print_alphabet();
+putchar('\n');
+return (0);
+}
+/**
+*print_alphabet - Function definition
+*/
 void print_alphabet(void)
 {
 char i;
-whhile (i = 'a'; i <= 'z'; i++)
+for (i = 'a'; i <= 'z'; i++)
 {
 putchar(i);
 }
-}
-putchar('\n');
-return (0)
 }
