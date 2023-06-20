@@ -7,12 +7,14 @@
  */
 int main(void)
 {
-void print_alphabet(void);
-for (print_alphabet = 'a'; print_alphabet <= 'z'; print_alphabet++)
+void print_alphabet(void)
 {
-_putchar(a);
-_putchar('\n');
+char i;
+whhile (i = 'a'; i <= 'z'; i++)
+{
+putchar(i);
 }
-_putchar('\n');
-return (0);
+}
+putchar('\n');
+return (0)
 }
