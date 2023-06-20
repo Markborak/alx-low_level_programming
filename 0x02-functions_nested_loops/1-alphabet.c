@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  *print_alphabet - Prototype function
  */
@@ -11,7 +11,7 @@ void print_alphabet(void);
 int main(void)
 {
 print_alphabet();
-putchar('\n');
+_putchar('\n');
 return (0);
 }
 /**
@@ -22,6 +22,6 @@ void print_alphabet(void)
 char i;
 for (i = 'a'; i <= 'z'; i++)
 {
-putchar(i);
+_putchar(i);
 }
 }
