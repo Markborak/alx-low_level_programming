@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+int print_last_digit(int n);
 int _abs(int n);
 void print_alphabet_x10(void);
 int print_sign(int n);
