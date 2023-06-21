@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-int _abs(int n)
+int _abs(int n);
 void print_alphabet_x10(void);
 int print_sign(int n);
 int _islower(int c);
