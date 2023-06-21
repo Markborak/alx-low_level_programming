@@ -18,4 +18,5 @@ int print_last_digit(int n)
 
 	_putchar(digit + '0');
 	return (digit);
+_putchar('\n');
 }
