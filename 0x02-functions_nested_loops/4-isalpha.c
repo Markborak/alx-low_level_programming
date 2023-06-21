@@ -13,4 +13,3 @@ int _isalpha(int c)
 	else
 		return (0);
 }
-22 changes: 22 additions & 0 deletions 
