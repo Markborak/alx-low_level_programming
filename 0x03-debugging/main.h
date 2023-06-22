@@ -8,6 +8,6 @@
  * @c: third integer
  * Return: the largest number
  */
-largest_number(a, b, c);
+int largest_number(int a,int b,int c);
 
 #endif /* MAIN_H */
