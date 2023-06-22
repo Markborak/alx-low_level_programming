@@ -39,6 +39,5 @@ int c = 0;
 int largest = largest_number(a, b, c);
 
 printf("%d\n", largest);
-printf("\n");
 return (0);
 }
