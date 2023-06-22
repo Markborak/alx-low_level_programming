@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * largest_number - returns the largest of 3 numbers
  * @a: first integer
@@ -24,9 +24,13 @@ else
 largest = c;
 }
 
-return largest;
+return (largest);
 }
-
+/**
+ * main - Entry point of code
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 int a = 972;
@@ -34,7 +38,7 @@ int b = -98;
 int c = 0;
 int largest = largest_number(a, b, c);
 
-printf("The largest number is: %d\n", largest);
+printf("%d\n", largest);
 
-return 0;
+return (0);
 }
