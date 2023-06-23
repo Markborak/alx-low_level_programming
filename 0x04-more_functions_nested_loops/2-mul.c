@@ -5,6 +5,8 @@
  * @a: Parameter
  *
  * @b: Parameter
+ *
+ * Return: Always a * b (success)
  */
 int mul(int a, int b)
 {
