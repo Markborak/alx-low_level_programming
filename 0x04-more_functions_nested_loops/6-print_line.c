@@ -4,11 +4,6 @@
  *
  * @n: Parameter
  */
-int _putchar(char c)
-{
-    return putchar(c);
-}
-
 void print_line(int n)
 {
 int i;
