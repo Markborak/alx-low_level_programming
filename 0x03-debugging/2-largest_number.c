@@ -26,17 +26,6 @@ largest = c;
 
 return (largest);
 }
-/**
- * main - Entry point of code
- *
- * Return: Always 0 (success)
- */
-int main(void)
-{
-int a = 972;
-int b = -98;
-int c = 0;
-int largest = largest_number(a, b, c);
 
 printf("%d\n", largest);
 return (0);
