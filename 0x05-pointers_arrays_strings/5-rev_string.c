@@ -13,7 +13,7 @@ for (i = 0; s[i] != '\0'; i++)
 {
 _putchar(s[i]);
 }
-
+_putchar('\n');
 for (j = 0; s[j] != '\0'; j++)
 {
 }
