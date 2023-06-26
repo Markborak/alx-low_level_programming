@@ -1,4 +1,9 @@
 #include "main.h"
+/**
+ * _puts - Function that prints a string
+ *
+ * @str: Parameter
+ */
 void _puts(char *str)
 {
 int i;
