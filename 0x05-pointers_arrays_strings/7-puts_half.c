@@ -11,16 +11,10 @@ int i = strlen(str);
 int j = i / 2;
 if (i % 2 != 0)
 {
-j =( (i - 1) / 2);
+j = ((i - 1) / 2);
 }
 for (i = j; str[i] != '\0'; i++)
 {
-/*_putchar(s[j]);*/
-
-/*if (i % 2 != 0)
-{
-j =( (i - 1) / 2);*/
 _putchar(str[i]);
 }
-/*}*/
 }
