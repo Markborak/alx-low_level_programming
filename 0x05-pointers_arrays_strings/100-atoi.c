@@ -1,6 +1,5 @@
 #include "main.h"
 #include <limits.h>
-#include <stdio.h>
 /**
  * _atoi - converts a string to an integer
  *
@@ -32,6 +31,5 @@ return ((sign == -1) ? INT_MIN : INT_MAX);
 result = (result * 10) + (s[i] - '0');
 i++;
 }
-putchar('\n');
 return (sign *result);
 }
