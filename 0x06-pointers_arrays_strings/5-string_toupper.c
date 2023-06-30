@@ -9,7 +9,7 @@
 char *string_toupper(char *str)
 {
 char *ptr = str;
-for (*ptr = 0; *ptr != '\0'; ptr++)
+for (; *ptr != '\0'; ptr++)
 {
 if (*ptr >= 'a' && *ptr <= 'z')
 {
