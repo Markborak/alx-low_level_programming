@@ -2,6 +2,7 @@
 #define MAIN_HEADER_FILE
 
 
+void print_chessboard(char (*a)[8]);
 char *_strstr(char *haystack, char *needle);
 char *_strpbrk(char *s, char *accept);
 unsigned int _strspn(char *s, char *accept);
