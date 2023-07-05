@@ -1,7 +1,8 @@
 #ifndef MAIN_FILE
 #define MAIN_FILE
 
-
+int sqrt_helper(int n, int start, int end);
+int _sqrt_recursion(int n);
 int _pow_recursion(int x, int y);
 int factorial(int n);
 int _strlen_recursion(char *s);
