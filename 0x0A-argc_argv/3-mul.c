@@ -21,11 +21,12 @@ if (argc == 3)
 num1 = atoi(argv[1]);
 num2 = atoi(argv[2]);
 result = num1 *num2;
-printf("%d", result);
+printf("%d\n", result);
 }
 else if (argc != 3)
 {
-printf("Error");
+printf("Error\n");
+return (1);
 }
 
 return (0);
