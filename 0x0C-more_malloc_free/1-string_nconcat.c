@@ -9,6 +9,8 @@
  *
  * @s2: string to be concatenated
  *
+ * @n: parameter
+ *
  * Return: Always 0 (success)
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
