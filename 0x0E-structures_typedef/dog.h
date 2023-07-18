@@ -15,4 +15,4 @@ void print_dog(struct dog *d);
 typedef struct dog dog_t;
 
 
-#endif
+#endif /* DOG_H */
