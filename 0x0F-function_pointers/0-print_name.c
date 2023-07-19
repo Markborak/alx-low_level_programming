@@ -4,6 +4,8 @@
 /**
  * print_name - funtion that prints a name
  *
+ * print_name_callback - function that prints a name
+ *
  * @name: Pararmter
  *
  * @f: parameter
