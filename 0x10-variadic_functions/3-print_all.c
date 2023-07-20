@@ -10,7 +10,6 @@
  *
  * @...: variable arguments
  */
-
 void print_all(const char * const format, ...)
 {
 va_list arg;
@@ -23,7 +22,7 @@ int not_first = 0;
 
 va_start(arg, format);
 
-while (format[index] != '\0')
+while (format && format[index])
 {
 if (not_first)
 printf(", ");
