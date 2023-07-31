@@ -8,7 +8,7 @@
  *
  * @h: pointer to the head of listint_t list
  *
- * Retturn: Always number of nodes (success)
+ * Return: Always number of nodes (success)
  */
 size_t print_listint(const listint_t *h)
 {

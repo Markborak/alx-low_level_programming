@@ -1,9 +1,8 @@
 #ifndef LISTS_HEADER_FILE
 #define LISTS_HEADER_FILE
-
-
-size_t print_listint(const listint_t *h);
 #include <stddef.h>
+
+
 
 
 
@@ -22,7 +21,6 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 
-
-
+size_t print_listint(const listint_t *h);
 
 #endif /* LISTS_HEADER_FILE */
